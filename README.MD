@@ -1,16 +1,16 @@
 #maze-solve
 
-A program written in C to solve a maze input from a text file.
+A program written in C to solve a maze.
 
 ![Output image](https://github.com/joshtyler/maze-solve/raw/master/img/screen1.png "Successful completion of program")
 
 This program was developed as part of a university lab, to explore recursion.
 
 The input to the program is a text file which defines a 2D array of characters of size 25x25 where:
-“W” represents a wall
-“ ” represents a path
-“I” represents the entrance
-“O” represents the exit.
+* “W” represents a wall
+* “ ” represents a path
+* “I” represents the entrance
+* “O” represents the exit.
 
 The task defined by the lab was to develop a recursive program which can find a path to the end of the maze from the start.
 
